@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+}
+
+header, section{
+    display: flex;
+}
+
+.left{
+    flex: 8;
+}
+.login{
+    flex: 2;
+    text-align: right;
+    padding: 15px;
+}
+.content{
+    flex: 6;
+}
+.leftC{
+    flex: 2;
+    text-align: center;
+}
+div button{
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+div a {
+    display: block;
+    padding: 5px;
+}
+button{
+    width: 190px;
+    height: 100px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+header, footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+header ul li {
+    display: inline;
+    margin: 5px;
+}
+article {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+section {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+}
